@@ -22,5 +22,5 @@ if (age >= 65) {
   definitivePrice = price;
 }
 
-document.getElementById('ticket-cost').innerHTML = definitivePrice.toFixed(2);
-console.log('Il prezzo che dovrai pagare è ' + definitivePrice.toFixed(2));
+document.getElementById('ticket-cost').innerHTML = definitivePrice.toFixed(2) + '€ ';
+console.log('Il prezzo che dovrai pagare è ' + definitivePrice.toFixed(2) + '€ ');
